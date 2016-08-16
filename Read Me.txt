@@ -1,0 +1,34 @@
+Steps to Run - by Nishita:
+This Java Application is used to implement the Rudimentary Database Engine to be used by users.
+It's a native cmd appication. The databse engine uses table and index files to run sql queries.
+The JAR file is attached to open and run the application on your sytem.
+
+To run the application:
+
+Note - GUI is programmed using Java. OS used is Mac OS X 10.11.2.
+
+1. Open command promt and copy the code attached in any directory.
+2. From the Command Prompt, navigate to the directory containing your "main.java" file, by typing the cd command below.
+3. Then type the javac command to compile it. 
+4. Type the java command to execute.
+
+Valid Input Commands:
+1. SHOW SCHEMAS;
+2. USE schema_name;
+3. SHOW TABLES;
+4. CREATE SCHEMA schema_nmae;
+5. CREATE TABLE table_name;
+6. INSERT INTO TABLE table_name VALUES (value1, value2 ..)
+7. DROP TABLE table_name;
+8. SELECT * FROM table_name WHERE column_name operator value;
+9. version;
+10. help
+11. exit
+
+Output:
+Results will be displayed for required data types and operators.
+
+(3 java classes are created and comments provided for explanation)
+
+Required - Install IntelliJ to run the source code in java. Import files and run the main.java. 
+           The prompt will display nishitasql>. Enter input query and press enter.
